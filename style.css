@@ -1,0 +1,19 @@
+/* Additional styling for the sections */
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  color: white;
+  padding: 20px;
+  /* Add padding for better readability */
+}
+
+/* Additional styling for the images */
+.images img {
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
